@@ -4,6 +4,7 @@
   "description": "A React Hands-on resources for beginners",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/koba04/react-handson-for-beginner/issues"
   },
-  "homepage": "https://github.com/koba04/react-handson-for-beginner#readme"
+  "homepage": "https://github.com/koba04/react-handson-for-beginner#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
 }
