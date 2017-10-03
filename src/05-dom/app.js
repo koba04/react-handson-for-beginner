@@ -4,7 +4,10 @@ import ReactDOM from 'react-dom';
 
 const container = document.querySelector('.js-app');
 
-// 読み込んだHelloのComponentのnameに好きな値を渡して表示してみよう
+// 4で作成したComponentを元に、画面が表示されたタイミングで、テキストボックスにフォーカスをあててみよう。
+// https://reactjs.org/docs/state-and-lifecycle.html
+// https://reactjs.org/docs/refs-and-the-dom.html
+
 class App extends React.Component {
   render() {
     return (

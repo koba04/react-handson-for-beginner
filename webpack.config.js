@@ -7,7 +7,8 @@ module.exports = {
     '01-hello/app': './src/01-hello/app.js',
     '02-component/app': './src/02-component/app.js',
     '03-props/app': './src/03-props/app.js',
-    '04-state/app': './src/04-state/app.js'
+    '04-state/app': './src/04-state/app.js',
+    '05-dom/app': './src/05-dom/app.js'
   },
   output: {
     filename: '[name].js'
