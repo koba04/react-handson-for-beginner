@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>React Handson for beginners</title>
+    <link rel="stylesheet" href="/pure.css">
+  </head>
+  <body>
+    <h1>6. Componentを組み合わせてみよう - Reactハンズオン</h1>
+    <p>
+      アプリケーションを開発するときは、Componentを組み合わせることでアプリケーション全体を構成します。<br />
+      ここでは、下記のような役割を持つComponentを作成して組み合わせてみましょう。
+    </p>
+    <ul>
+      <li>App ... アプリケーション全体の状態を持つComponent。テキストの値とテキストのスタイルをStateとして管理する。</li>
+      <li>Text ... テキストボックスを持つComponent。このComponent自身は値を管理せず、onChangeとvalueをPropとして受け取る。</li>
+      <li>TextStyle ... テキストに対するスタイルを指定するComponent。<i>bold</i>または<i>italic</i>から選択できるセレクトボックスを持つ。onChangeとstyleのPropとして受け取る。</li>
+      <li>Preview ... テキストをスタイルにしたがって表示するComponent。Propとしてvalueとstyleを受け取る。styleが<i>bold</i>の場合は、font-weightがboldとなり、<i>italic</i>の場合はiタグで囲む</li>
+    </ul>
+    <hr />
+    <div class="js-app"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -7,8 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" value="Hello" onChange={() => {}} />
-        <p>Hello</p>
+        {/* ここに作成したTextとTextStyleとPreviewのComponentを配置してみよう */}
       </div>
     )
   }
