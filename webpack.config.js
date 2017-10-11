@@ -10,7 +10,10 @@ module.exports = {
     '04-state/app': './src/04-state/app.js',
     '05-dom/app': './src/05-dom/app.js',
     '06-components/app': './src/06-components/app.js',
-    '07-fetch/app': './src/07-fetch/app.js'
+    '07-fetch/app': './src/07-fetch/app.js',
+    '08-render-news/app': './src/08-render-news/app.js',
+    '09-loading/app': './src/09-loading/app.js',
+    '10-filtering/app': './src/10-filtering/app.js'
   },
   output: {
     filename: '[name].js'
