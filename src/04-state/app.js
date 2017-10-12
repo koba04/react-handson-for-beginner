@@ -7,6 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        {/* inputの値とp要素の値が同期させるようにしてみましょう */}
         <input type="text" value="Hello" onChange={() => {}} />
         <p>Hello</p>
       </div>

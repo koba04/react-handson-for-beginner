@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {/* ここに作成したTextとTextStyleとPreviewのComponentを配置してみよう */}
+        {/* TextとTextStyleとPreviewのComponentを配置してみましょう */}
       </div>
     )
   }

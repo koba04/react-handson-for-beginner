@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// HelloのComponentを読み込んでみよう
+
+// ここでHelloのComponentを読み込んでみましょう
 
 const container = document.querySelector('.js-app');
 
-// 読み込んだHelloのComponentを表示してみよう
+// ここで読み込んだHelloのComponentを表示してみましょう

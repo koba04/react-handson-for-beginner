@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <pre>
-          {/* ここにサーバーから取得したデータをそのまま出力してみよう */}
+          {/* ここにサーバーから取得したデータをそのまま出力してみましょう */}
         </pre>
       </div>
     )

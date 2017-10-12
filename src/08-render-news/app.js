@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {/* NewsのComponentを表示して、その中でNewsItemのComponentを表示してみよう */}
+        {/* サーバーからデータを取得したあとは、NewsのComponentを表示して、その中でNewsItemのComponentを表示してみましょう */}
       </div>
     )
   }

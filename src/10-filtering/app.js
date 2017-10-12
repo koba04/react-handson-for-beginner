@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {/* テキストボックスを表示するComponentを用意して、タイトルでフィルターできるようにしてみよう */}
+        {/* テキストボックスのComponentを用意して、入力されたテキストでタイトルをフィルタリングできるようにしてみましょう */}
       </div>
     )
   }

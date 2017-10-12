@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width">
     <title>React Handson for beginners</title>
     <link rel="stylesheet" href="/pure.css">
+    <link rel="stylesheet" href="/main.css">
   </head>
   <body>
     <h1>5. フォーカスを当ててみよう - Reactハンズオン</h1>
     <p>
-      4で作成したComponentのテキストボックスに、画面が表示されたタイミングでフォーカスを当ててみよう。<br />
-      Componentのライフサイクルメソッドを使うと画面が表示されたタイミングの処理を登録できます。
-      フォーカスを当てるには、DOM要素を取得して<i>focus()</i>メソッドを呼ぶ必要があります。
-      DOM要素を取得するには、<i>ref</i>というPropを使います。
+      4で作成したテキストボックスのComponentに対して、画面が表示されたタイミングでフォーカスを当ててみよう。<br />
+      Componentのライフサイクルメソッドを使うと画面が表示されたタイミングの処理を登録できます。<br />
+      フォーカスを当てるには、DOM要素を取得して<b>focus()</b>メソッドを呼ぶ必要があります。<br />
+      DOM要素を取得するには、<b>ref</b>というPropを使います。
     </p>
     <hr />
-    <div class="js-app"></div>
+    <div class="js-app app"></div>
+    <hr />
+    <aside>
+      <h2>参考</h2>
+      <ul>
+        <li><a href="https://reactjs.org/docs/refs-and-the-dom.html">https://reactjs.org/docs/refs-and-the-dom.html</a></li>
+      </ul>
+    </aside>
+    <a href="/">戻る</a>
     <script src="app.js"></script>
   </body>
 </html>

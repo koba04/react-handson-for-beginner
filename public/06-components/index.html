@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>React Handson for beginners</title>
     <link rel="stylesheet" href="/pure.css">
+    <link rel="stylesheet" href="/main.css">
   </head>
   <body>
     <h1>6. Componentを組み合わせてみよう - Reactハンズオン</h1>
@@ -13,13 +14,21 @@
       ここでは、下記のような役割を持つComponentを作成して組み合わせてみましょう。
     </p>
     <ul>
-      <li>App ... アプリケーション全体の状態を持つComponent。テキストの値とテキストのスタイルをStateとして管理する。</li>
-      <li>Text ... テキストボックスを持つComponent。このComponent自身は値を管理せず、onChangeとvalueをPropとして受け取る。</li>
-      <li>TextStyle ... テキストに対するスタイルを指定するComponent。<i>bold</i>または<i>italic</i>から選択できるセレクトボックスを持つ。onChangeとstyleのPropとして受け取る。</li>
-      <li>Preview ... テキストをスタイルにしたがって表示するComponent。Propとしてvalueとstyleを受け取る。styleが<i>bold</i>の場合は、font-weightがboldとなり、<i>italic</i>の場合はiタグで囲む</li>
+      <li>App ... アプリケーション全体の状態を持つComponentです。テキストの値(<b>textValue</b>)とテキストのスタイル(<b>textStyle</b>)をStateとして管理します。</li>
+      <li>Text ... テキストボックスを持つComponentです。このComponent自身は値を管理せず、テキストの値と変更する処理を<b>value</b>と<b>onChange</b>をPropとして受け取ります。</li>
+      <li>TextStyle ... テキストに対するスタイルを指定するComponentです。<b>bold</b>または<b>italic</b>から選択できるセレクトボックスを持ちます。<b>textStyle</b>と<b>onChange</b>をPropとして受け取ります。</li>
+      <li>Preview ... テキストをスタイルにしたがって表示するComponentです。<b>textValue</b>と<b>textStyle</b>をPropとして受け取ります。<b>textStyle</b>が<b>bold</b>の場合は、font-weightがboldとなり、<b>italic</b>の場合はiタグで囲みます。</li>
     </ul>
     <hr />
-    <div class="js-app"></div>
+    <div class="js-app app"></div>
+    <hr />
+    <aside>
+      <h2>参考</h2>
+      <ul>
+        <li><a href="https://reactjs.org/docs/lifting-state-up.html">https://reactjs.org/docs/lifting-state-up.html</a></li>
+      </ul>
+    </aside>
+    <a href="/">戻る</a>
     <script src="app.js"></script>
   </body>
 </html>

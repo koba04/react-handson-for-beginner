@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {/* データが取得できるまではLoadingの表示をしてみよう */}
+        {/* データが取得できるまではLoadingの表示をしてみましょう */}
       </div>
     )
   }
