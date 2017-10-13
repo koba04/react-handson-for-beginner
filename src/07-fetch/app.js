@@ -6,12 +6,23 @@ import {fetchHackerNews} from '../api';
 const container = document.querySelector('.js-app');
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      news: null
+    };
+  }
+  componentDidMount() {
+    fetchHackerNews().then((news) => {
+      this.setState({news});
+    })
+  }
   render() {
     return (
       <div>
-        <pre>
-          {/* ここにサーバーから取得したデータをそのまま出力してみましょう */}
-        </pre>
+        <code>
+          {JSON.stringify(this.state.news)}
+        </code>
       </div>
     )
   }
