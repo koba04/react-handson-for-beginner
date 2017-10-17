@@ -1,5 +1,58 @@
 body {
+  font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
   padding: 10px;
+  font-size: 1.2rem;
+}
+
+aside {
+  font-size: 0.9rem;
+  padding: 3px;
+  margin: 0;
+  margin-bottom: 3px;
+  background-color: rgba(238, 238, 238, 0.5);
+}
+
+select {
+  margin: 0 3px;
+  height: 2rem;
+}
+
+h1, h2 {
+  border-bottom: solid 1px #ddd;
+}
+
+code {
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 1px;
+}
+
+pre {
+  word-wrap: break-word;
+}
+
+li {
+  margin: 5px;
+  list-style: none;
+}
+
+li > span {
+  display: inline-block;
+  margin: auto 0;
+}
+li > span:nth-child(1) {
+  width: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+li > span:nth-child(3),
+li > span:nth-child(4) {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+input[type="text"] {
+  width: 50%;
 }
 
 .app {

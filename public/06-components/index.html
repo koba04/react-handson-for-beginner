@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="/pure.css">
     <link rel="stylesheet" href="/main.css">
   </head>
-  <body>
+  <codeody>
     <h1>6. Componentを組み合わせてみよう - Reactハンズオン</h1>
     <p>
-      アプリケーションを開発するときは、Componentを組み合わせることでアプリケーション全体を構成します。<br />
+      アプリケーションを開発するときは、Componentを組み合わせることでアプリケーション全体を構成します。<coder />
       ここでは、下記のような役割を持つComponentを作成して組み合わせてみましょう。
     </p>
     <ul>
-      <li>App ... アプリケーション全体の状態を持つComponentです。テキストの値(<b>textValue</b>)とテキストのスタイル(<b>textStyle</b>)をStateとして管理します。</li>
-      <li>Text ... テキストボックスを持つComponentです。このComponent自身は値を管理せず、テキストの値と変更する処理を<b>value</b>と<b>onChange</b>をPropとして受け取ります。</li>
-      <li>TextStyle ... テキストに対するスタイルを指定するComponentです。<b>bold</b>または<b>italic</b>から選択できるセレクトボックスを持ちます。<b>textStyle</b>と<b>onChange</b>をPropとして受け取ります。</li>
-      <li>Preview ... テキストをスタイルにしたがって表示するComponentです。<b>textValue</b>と<b>textStyle</b>をPropとして受け取ります。<b>textStyle</b>が<b>bold</b>の場合は、font-weightがboldとなり、<b>italic</b>の場合はiタグで囲みます。</li>
+      <li><code>App</code> ... アプリケーション全体の状態を持つComponentです。テキストの値(<code>textValue</code>)とテキストのスタイル(<code>textStyle</code>)をStateとして管理します。</li>
+      <li><code>Text</code> ... テキストボックスを持つComponentです。このComponent自身は値を管理せず、テキストの値と変更する処理を<code>value</code>と<code>onChange</code>をPropとして受け取ります。</li>
+      <li><code>TextStyle</code> ... テキストに対するスタイルを指定するComponentです。<code>bold</code>または<code>italic</code>から選択できるセレクトボックスを持ちます。<code>textStyle</code>と<code>onChange</code>をPropとして受け取ります。</li>
+      <li><code>Preview</code> ... テキストをスタイルにしたがって表示するComponentです。<code>textValue</code>と<code>textStyle</code>をPropとして受け取ります。<code>textStyle</code>が<code>bold</code>の場合は、font-weightがboldとなり、<code>italic</code>の場合はiタグで囲みます。</li>
     </ul>
     <hr />
     <div class="js-app app"></div>
@@ -30,5 +30,5 @@
     </aside>
     <a href="/">戻る</a>
     <script src="app.js"></script>
-  </body>
+  </codeody>
 </html>
