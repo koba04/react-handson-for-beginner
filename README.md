@@ -57,3 +57,6 @@ webpack: Compiled successfully.
 
 `webpack: Compiled successfully.`が出力された後、`http://localhost:8080`をブラウザで開きます。
 
+## React in 5minutes
+
+* [React in 5minutes](./React-in-5minutes.md)
