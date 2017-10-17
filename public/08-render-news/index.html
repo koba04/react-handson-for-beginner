@@ -10,9 +10,20 @@
   <body>
     <h1>8. データをComponentで表示してみよう - Reactハンズオン</h1>
     <p>
-      <b>src/fetch.js</b>の<b>fetchHackerNews</b>で取得したデータを一覧にして表示してみましょう。<br />
+      <code>src/fetch.js</code>の<code>fetchHackerNews</code>で取得したデータを一覧にして表示してみましょう。<br />
       Newsの一覧を表示するNews Componentと、各Newsを表示するNewsItem Componentを作成してみましょう<br />
-      NewsItemでは、投稿者(<b>by</b>)とタイトル(<b>title</b>)とコメント数(<b>kids</b>の数)と表示して、タイトルをクリックすると記事のページを開くようにしてみましょう。
+      NewsItemでは、投稿者(<code>by</code>)とタイトル(<code>title</code>)とコメント数(<code>kids</code>の数)と表示して、タイトルをクリックすると記事のページを開くようにしてみましょう。
+      マークアップは下記のような構造してください。
+      <pre>
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;span&gt;{rank}&lt;/span&gt;
+            &lt;span&gt;&lt;a href="{url}" target="blank"&gt;{title}&lt;/a&gt;&lt;/span&gt;
+            &lt;span&gt;(by {by})&lt;/span&gt;
+            &lt;span&gt;{kidsの数}comments&lt;/span&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      </pre>
     </p>
     <hr />
     <div class="js-app app"></div>

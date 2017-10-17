@@ -20,9 +20,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <code>
-          {JSON.stringify(this.state.news)}
-        </code>
+        <pre>
+          {JSON.stringify(this.state.news, null, "  ")}
+        </pre>
       </div>
     )
   }

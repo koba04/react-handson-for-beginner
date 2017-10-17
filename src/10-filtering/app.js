@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     const {news, filterText} = this.state;
     if (!news) return <p>loading...</p>;
-    const filteredNews = filterText ? news.filter((item) => item.title.indexOf(filterText) !== -1) : news;
+    const filteredNews = filterText ? news.filter((item) => item.title.toLowerCase().indexOf(filterText.toLowerCase()) !== -1) : news;
     return (
       <div>
         <FilteringText
